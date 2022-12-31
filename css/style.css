@@ -11,7 +11,7 @@ body {
 
 
 
-#header {
+.navbar {
 	background-color: #38A3A5;
 	height: 10vh;
 	padding: 2rem;
@@ -27,7 +27,7 @@ body {
 	background: linear-gradient(to top,#22577A, #38A3A5) no-repeat right / 200%;
 }
 
-#buttonlogin:hover {
+.buttonlogin:hover {
 	background-position: left;
 	
 
@@ -45,13 +45,23 @@ body {
 	
 }
 
-#buttonlogin:hover {
+.buttonregister:hover {
 	background-position: right;
 	
 
 }
 
-
+#buttonsearch {
+	border: none;
+	text-decoration: solid;
+	cursor: pointer;
+	background-color: #22577A;
+	border-radius: 20%;
+	padding: 0.2rem;
+	background: linear-gradient(to top,#22577A, #38A3A5) no-repeat left / 200%;
+	
+	
+}
 
 
 main {

@@ -11,33 +11,62 @@
     <link href="./css/style.css" type="text/css" rel="stylesheet">
 </head>
 
-<!--Navbar-->
-<header class="container-fluid">
-    <div id="header" class="row">
-        <div class="col-1 h-auto"><img src="./assets/images/mascota.png" height="55px" /> </div>
-        <nav class=" col-11 h-auto">
-            <ul class="d-flex justify-content-between align-items-center h-auto">
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"> <img src="./assets/images/mascota.png" height="55px" /> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page" href="./pages/conocenos.html"> Conócenos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-2 h5 text-white text-decoration-none" href="./pages/buscador.html">Buscador Vet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page" href="./pages/instapets.html">Instapets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page" href="./pages/blog.html">Blog/Foro</a>
+                    </li>
 
-                <div class="col-xs-9 col-lg-1"><a class=" mb-2 h5 text-white text-decoration-none"  href="index.html">Home</a></div>
-                <div class="col-xs-9 col-lg-1"><a class=" mb-2 h5 text-white text-decoration-none"  href="./pages/conocenos.html">Conócenos</a></div>
-                <div class="col-xs-9 col-lg-1"><a class="mb-2 h5 text-white text-decoration-none"  href="./pages/buscador.html">Buscador Vet</a></div>
-                <div class="col-xs-9 col-lg-1"><a  class="mb-2 h5 text-white text-decoration-none" href="./pages/instapets.html">Instapets</a></div>
-                <div class="col-xs-9 col-lg-1"><a class="mb-2 h5 text-white text-decoration-none"  href="blog.html">Blog/Foro</a></div>
+                </ul>
+
                 <div class="col-xs-9 col-lg-1">
-                    <button class="mb-2 h5 text-white text-decoration-none"  id="buttonlogin"> Log in </button></div>
+                    <button class="me-2 h5 text-white text-decoration-none" id="buttonlogin"> Log in </button>
+                </div>
                 <div class="col-xs-9 col-lg-1">
                     <form action="./pages/registro1.html">
-                        <button class="mb-2 h5 text-white text-decoration-none"  id="buttonregister"> Regístrate </button>
+                        <button class="me-2 h5 text-white text-decoration-none" id="buttonregister"> Regístrate
+                        </button>
                 </div>
                 </form>
-            </ul>
 
-        </nav>
-    </div>
 
-</header>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 h5 text-white text-decoration-none" type="search"
+                        placeholder="Busca contenido aquí" aria-label="Search">
+                    <button class="btn btn-outline-success h5 text-white text-decoration-none" id="buttonsearch" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-<body>
+
+
+
+
+
+
+
+
+
     &nbsp
 
     <div class="embed-responsive embed-responsive-16by9">
@@ -46,17 +75,17 @@
 
     <br>
     &nbsp
-<!--Artículos generales-->
+    <!--Artículos generales-->
     <h1 class="display-1 justify-content-center align-items-center">
         Conócenos ¿Qué es Proyecto Pet?
     </h1>
-   
+
     <main class="container">
         <div id="main" class="row">
             <section id="ParrafosA"
                 class="col-sm-12 col-lg-6 bg-body-secondary d-flex flex-column justify-content-center align-items-center">
                 <br>
-              
+
                 <h3>Toda la información en un solo lugar </h3>
                 <br>
                 <p>
@@ -69,7 +98,7 @@
                     <br>
 
                 </p>
-          
+
                 <br>
 
                 <h3>Toda la información en un solo lugar </h3>
@@ -119,7 +148,7 @@
 
 
 
-
+    <!--Footer-->
     <div class="container-fluid">
 
         <div id="footer" class="row">
