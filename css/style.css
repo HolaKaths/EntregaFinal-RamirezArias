@@ -104,4 +104,7 @@ main {
 #footer {
 	background-color: #38A3A5;
 	height: 25vh;
+	font-family: montserrat;
+	font-size: large;
+	font-weight: bold;
 }
