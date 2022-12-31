@@ -6,12 +6,53 @@
 
 body {
 	height: 100vh;
+
 }
+
+
 
 #header {
 	background-color: #38A3A5;
-	height: 15vh;
+	height: 10vh;
+	padding: 2rem;
 }
+
+#buttonlogin {
+	border: none;
+	cursor: pointer;
+	background-color: #22577A;
+	border-radius: 20%;
+	padding: 0.2rem;
+	transition: 0.3s ease;
+	background: linear-gradient(to top,#22577A, #38A3A5) no-repeat right / 200%;
+}
+
+#buttonlogin:hover {
+	background-position: left;
+	
+
+}
+
+
+#buttonregister {
+	border: none;
+	cursor: pointer;
+	background-color: #22577A;
+	border-radius: 20%;
+	padding: 0.2rem;
+	background: linear-gradient(to top,#22577A, #38A3A5) no-repeat left / 200%;
+	
+	
+}
+
+#buttonlogin:hover {
+	background-position: right;
+	
+
+}
+
+
+
 
 main {
 	background-color: white;
