@@ -100,10 +100,8 @@ padding-bottom: 56.25%;
 
 }
 
-main {
-	background-color: white;
-	height: auto;
-}
+
+
 
 #footer {
 	background-color: #38A3A5;
@@ -113,8 +111,9 @@ main {
 	font-weight: bold;
 }
 
-.footer:hover{
+#footer .mb-2 a:hover {
 	background-position: right;
-	background-color: #38A3A5;
+	background-color: #22577A;
+	color: #38A3A5;
 	
 }
