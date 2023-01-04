@@ -14,10 +14,15 @@ body {
 .navbar {
 	background-color: #38A3A5;
 	height: 10vh;
-	padding: 2rem;
+	padding: 1rem 2rem 1rem 2rem;
 	font-family: montserrat;
 	font-size: large;
 	font-weight: bold;
+}
+
+.nav-link:hover {
+	background-color: #22577A;
+	color:#38A3A5
 }
 
 #buttonlogin {
@@ -33,7 +38,7 @@ body {
 
 .buttonlogin:hover {
 	background-position: left;
-	
+	background-color: #38A3A5;
 
 }
 
@@ -50,8 +55,7 @@ body {
 	
 }
 
-.buttonregister:hover {
-	background-position: right;
+.buttonregister:hover {opacity: 1;
 	
 
 }
@@ -98,13 +102,19 @@ padding-bottom: 56.25%;
 
 main {
 	background-color: white;
-	height: 75vh;
+	height: auto;
 }
 
 #footer {
 	background-color: #38A3A5;
-	height: 25vh;
+	height: auto;
 	font-family: montserrat;
 	font-size: large;
 	font-weight: bold;
+}
+
+.footer:hover{
+	background-position: right;
+	background-color: #38A3A5;
+	
 }
