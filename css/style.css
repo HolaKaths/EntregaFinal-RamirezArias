@@ -55,6 +55,18 @@ body {
 	
 }
 
+#buttonenviar1 {
+	border: none;
+	cursor: pointer;
+	background-color: #22577A;
+	border-radius: 15%;
+	padding: 0.2rem;
+	background: linear-gradient(to top,#03045e, #0096c7) no-repeat left / 200%;
+	font-weight: bold;
+	
+	
+	
+}
 .buttonregister:hover {
 	background-position: left;
 	background-color: #023e8a;
