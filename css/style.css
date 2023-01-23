@@ -1,132 +1,21 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: montserrat;
-}
-
-body {
-	height: 100vh;
-
-}
-
-
-
-.navbar {
-	background-color: #48cae4;
-	padding: 1rem 2rem 1rem 2rem;
-	font-family: montserrat;
-	font-size: large;
-	font-weight: bold;
-}
-
-.nav-link:hover {
-	background-color: #03045e;
-	color:#023e8a
-}
-
-#buttonlogin {
-	border: none;
-	cursor: pointer;
-	background-color: #22577A;
-	border-radius: 15%;
-	padding: 0.2rem;
-	transition: 0.3s ease;
-	background: linear-gradient(to top,#03045e, #0096c7) no-repeat right / 200%;
-	font-weight: bold;
-}
-
-.buttonlogin:hover {
-	background-position: left;
-	background-color: #023e8a;
-
-}
-
-
-#buttonregister {
-	border: none;
-	cursor: pointer;
-	background-color: #22577A;
-	border-radius: 15%;
-	padding: 0.2rem;
-	background: linear-gradient(to top,#03045e, #0096c7) no-repeat left / 200%;
-	font-weight: bold;
-	
-	
-}
-
-#buttonenviar1 {
-	border: none;
-	cursor: pointer;
-	background-color: #22577A;
-	border-radius: 15%;
-	padding: 0.2rem;
-	background: linear-gradient(to top,#03045e, #0096c7) no-repeat left / 200%;
-	font-weight: bold;
-	
-	
-	
-}
-.buttonregister:hover {
-	background-position: left;
-	background-color: #023e8a;
-	
-}
-
-#buttonsearch {
-	border: none;
-	text-decoration: solid;
-	cursor: pointer;
-	background-color: #03045e;
-	border-radius: 15%;
-	padding: 0.2rem;
-	background: linear-gradient(to top,#03045e, #0096c7) no-repeat left / 200%;
-	font-weight: bold;
-	
-	
-}
-
-.video
-{
-	width:50%;
-	position: relative;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.video::after{
-
-content:"";
-display:block;
-width:100%;
-padding-bottom: 56.25%;
-
-}
-
-.videoresponsive {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top:0;
-	left: 0;
-
-}
-
-
-
-
-#footer {
-	background-color: #48cae4;
-	height: auto;
-	font-family: montserrat;
-	font-size: large;
-	font-weight: bold;
-}
-
-#footer .mb-2 a:hover {
-	background-position: right;
-	background-color: #caf0f8;
-	color: #38A3A5;
-	
-}
+header nav ul li {
+  background-color: #48cae4;
+  padding: 1rem 2rem 1rem 2rem;
+  font-family: montserrat;
+  font-size: large;
+  font-weight: bold; }
+  header nav ul li a {
+    text-decoration: none;
+    color: white; }
+    header nav ul li a:hover {
+      background-color: #03045e;
+      color: #023e8a; }
+    header nav ul li a .buttonlogin {
+      border: none;
+      cursor: pointer;
+      background-color: #22577A;
+      border-radius: 15%;
+      padding: 0.2rem;
+      transition: 0.3s ease;
+      background: linear-gradient(to top, #03045e, #0096c7) no-repeat right/200%;
+      font-weight: bold; }
