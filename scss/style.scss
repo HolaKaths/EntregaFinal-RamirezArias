@@ -1,37 +1,4 @@
-header {
-    nav {
-
-        ul {
-
-            li {
-
-                background-color: #48cae4;
-                padding: 1rem 2rem 1rem 2rem;
-                font-family: montserrat;
-                font-size: large;
-                font-weight: bold;
-
-                a {
-                    text-decoration: none;
-                    color: white;
-
-                    &:hover {
-                        background-color: #03045e;
-                        color: #023e8a
-                    }
-
-                    .buttonlogin {
-                        border: none;
-                        cursor: pointer;
-                        background-color: #22577A;
-                        border-radius: 15%;
-                        padding: 0.2rem;
-                        transition: 0.3s ease;
-                        background: linear-gradient(to top,#03045e, #0096c7) no-repeat right / 200%;
-                        font-weight: bold;
-                    }
-                }
-            }
-        }
-    }
-}
+@import "./variables";
+@import "./header";
+@import "./main";
+@import "./footer";
