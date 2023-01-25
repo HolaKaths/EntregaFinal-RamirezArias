@@ -2,143 +2,95 @@ header .navbar {
   background-color: #48cae4;
   font-family: montserrat;
   font-size: large;
-  font-weight: bold;
-}
-
-header .navbar .navbar-brand img {
-  height: 55px;
-}
-
-header .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #fff;
-  text-decoration: none;
-}
-
-header .navbar form input {
-  background-color: #48cae4;
-  border: none;
-  font-size: large;
-  font-weight: bold;
-}
-
-header .navbar form button {
-  background-color: #48cae4;
-  border: none;
-  font-size: large;
-  font-weight: bold;
-}
-
-header .navbar #buttonlogin {
-  background-color: #22577A;
-  border: none;
-  border-radius: 15%;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 0.2rem;
-  transition: 0.3s ease;
-}
-
-header .navbar #buttonregister {
-  background-color: #22577A;
-  border: none;
-  border-radius: 15%;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 0.2rem;
-  transition: 0.3s ease;
-}
-
-header .navbar #buttonsearch {
-  background-color: #22577A;
-  border: none;
-  border-radius: 15%;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 0.2rem;
-  transition: 0.3s ease;
-}
+  font-weight: bold; }
+  header .navbar .navbar-brand img {
+    height: 55px; }
+  header .navbar .navbar-nav .nav-item .nav-link.active {
+    color: #fff;
+    text-decoration: none; }
+  header .navbar form input {
+    background-color: #48cae4;
+    border: none;
+    font-size: large;
+    font-weight: bold; }
+  header .navbar form button {
+    background-color: #48cae4;
+    border: none;
+    font-size: large;
+    font-weight: bold; }
+  header .navbar #buttonlogin {
+    background-color: #22577A;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.2rem;
+    transition: 0.3s ease; }
+  header .navbar #buttonregister {
+    background-color: #22577A;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.2rem;
+    transition: 0.3s ease; }
+  header .navbar #buttonsearch {
+    background-color: #22577A;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.2rem;
+    transition: 0.3s ease; }
 
 .video {
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 50%;
-}
-
-.video::after {
-  content: "";
-  display: block;
-  padding-bottom: 56.25%;
-  width: 100%;
-}
-
-.video .videoresponsive {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
+  width: 50%; }
+  .video::after {
+    content: "";
+    display: block;
+    padding-bottom: 56.25%;
+    width: 100%; }
+  .video .videoresponsive {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
 
 h1 {
   align-items: center;
   display: 1;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA {
   align-items: center;
   background-color: bg-body-secondary;
-  flex-column: justify-content-center;
-}
-
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA h3:before {
-  content: "";
-}
-
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA p:before {
-  content: "";
-}
+  column-span: justify-content-center; }
+  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA h3:before {
+    content: ""; }
+  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA p:before {
+    content: ""; }
 
 .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB {
   align-items: center;
   background-color: bg-secondary-subtle;
-  flex-column: justify-content-center;
-}
-
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB h3:before {
-  content: "";
-}
-
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB p:before {
-  content: "";
-}
+  flex-column: justify-content-center; }
+  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB h3:before {
+    content: ""; }
+  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB p:before {
+    content: ""; }
 
 #footer {
   background-color: #48cae4;
   font-family: montserrat;
   font-size: large;
   font-weight: bold;
-  height: auto;
-}
-
-#footer .mb-2 a:hover {
-  background-color: #caf0f8;
-  background-position: right;
-  color: #38A3A5;
-}
-
-#registro1 {
-  padding: 30px 50px 20px;
-}
-
-#buttonenviar1 {
-  background-color: #22577A;
-  border: none;
-  border-radius: 15%;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 0.2rem;
-  transition: 0.3s ease;
-}
+  height: auto; }
+  #footer .mb-2 a:hover {
+    background-color: #caf0f8;
+    background-position: right;
+    color: #38A3A5; }

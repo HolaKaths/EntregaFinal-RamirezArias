@@ -25,10 +25,9 @@
         align-items: center;
         display: 1;
         justify-content: center;
-
-       
-        }
+            }
     
+
 
     .w3-container {
         main {
@@ -41,7 +40,7 @@
                                     &#ParrafosA {
                                         align-items: center;
                                         background-color: bg-body-secondary;
-                                        flex-column: justify-content-center;
+                                        column-span: justify-content-center;
 
                                         h3 {
                                             &:before {
