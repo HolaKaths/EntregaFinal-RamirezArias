@@ -66,23 +66,25 @@ h1 {
   display: 1;
   justify-content: center; }
 
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA {
-  align-items: center;
-  background-color: bg-body-secondary;
-  column-span: justify-content-center; }
-  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA h3:before {
-    content: ""; }
-  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosA p:before {
-    content: ""; }
-
-.w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB {
-  align-items: center;
-  background-color: bg-secondary-subtle;
-  flex-column: justify-content-center; }
-  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB h3:before {
-    content: ""; }
-  .w3-container main.w3-container.w3-center.w3-animate-opacity #main .row section#ParrafosB p:before {
-    content: ""; }
+main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1 {
+  padding: 50 px 50 px 50 px;
+  font-family: montserrat; }
+  main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA {
+    align-items: center;
+    background-color: bg-body-secondary;
+    column-span: justify-content-center; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA h3:before {
+      content: ""; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA p:before {
+      content: ""; }
+  main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB {
+    align-items: center;
+    background-color: bg-secondary-subtle;
+    column-span: justify-content-center; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB h3:before {
+      content: ""; }
+    main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB p:before {
+      content: ""; }
 
 #footer {
   background-color: #48cae4;

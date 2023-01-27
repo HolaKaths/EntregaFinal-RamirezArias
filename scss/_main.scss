@@ -1,82 +1,90 @@
-    .video {
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+
+    &::after {
+        content: "";
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        width: 50%;
-
-        &::after {
-            content: "";
-            display: block;
-            padding-bottom: 56.25%;
-            width: 100%;
-        }
-
-        .videoresponsive {
-            height: 100%;
-            left: 0;
-            position: absolute;
-            top: 0;
-            width: 100%;
-        }
+        padding-bottom: 56.25%;
+        width: 100%;
     }
 
-    h1 {
-        align-items: center;
-        display: 1;
-        justify-content: center;
-            }
-    
+    .videoresponsive {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+h1 {
+    align-items: center;
+    display: 1;
+    justify-content: center;
+}
 
 
-    .w3-container {
-        main {
-            &.w3-container {
-                &.w3-center {
-                    &.w3-animate-opacity {
-                        #main {
-                            .row {
-                                section {
-                                    &#ParrafosA {
-                                        align-items: center;
-                                        background-color: bg-body-secondary;
-                                        column-span: justify-content-center;
+.w3-container {
+    main &.w3-container {
+        &.w3-center {
+            &.w3-animate-opacity {
+                #main {
+                    .row {
+                        section {
 
-                                        h3 {
-                                            &:before {
-                                                content: "";
-                                            }
-                                        }
+                            &#registro1 {
+                                padding: 50 px 50 px 50 px;
+                                font-family: montserrat;
 
-                                        p {
-                                            &:before {
-                                                content: "";
-                                            }
-                                        }
-                                    }
-                                    &#ParrafosB {
-                                        align-items: center;
-                                        background-color: bg-secondary-subtle;
-                                        flex-column: justify-content-center;
-                                        h3 {
-                                            &:before {
-                                                content: "";
-                                            }
-                                        }
 
-                                        p {
-                                            &:before {
-                                                content: "";
-                                            }
+
+                                &#ParrafosA {
+                                    align-items: center;
+                                    background-color: bg-body-secondary;
+                                    column-span: justify-content-center;
+
+                                    h3 {
+                                        &:before {
+                                            content: "";
                                         }
                                     }
-                                        }
 
+                                    p {
+                                        &:before {
+                                            content: "";
+                                        }
+                                    }
+                                }
+
+
+                                &#ParrafosB {
+                                    align-items: center;
+                                    background-color: bg-secondary-subtle;
+                                    column-span: justify-content-center;
+
+                                    h3 {
+                                        &:before {
+                                            content: "";
+                                        }
+                                    }
+
+                                    p {
+                                        &:before {
+                                            content: "";
+                                        }
+                                    }
                                 }
                             }
+
                         }
-                    
+                    }
                 }
+
             }
         }
     }
+}
