@@ -1,35 +1,25 @@
-mixin xs {
-    @media (max-width: #{$screen-xs-max}) {
-        @content;
-    }
+
+@mixin reset-pm {
+    padding: 0%;
+    margin: 0%;
 }
 
-/**
-* SMALL (SM)
-*/
-
-@mixin sm {
-    @media (min-width: #{$screen-sm-min}) {
-        @content;
-    }
+* {
+    @include reset-pm();
+    box-sizing: border-box;
 }
 
-/**
-* MEDIUM (MD)
-*/
-
-@mixin md {
-    @media (min-width: #{$screen-md-min}) {
-        @content;
-    }
-}
-
-/**
-* LARGE (LG)
-*/
-
-@mixin lg {
-    @media (min-width: #{$screen-lg-min}) {
-        @content;
-    }
+@mixin button ($background-color, $color, $bold) {
+    background-color: $background-color #22577A;
+    color: $color;
+    border: none;
+    border-radius: 15%;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+        padding: 0.2rem;
+    transition: 0.3s ease;
 }

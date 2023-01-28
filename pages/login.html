@@ -13,59 +13,96 @@
 
 <body>
     <!--Navbar-->
-<header>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"> <img src="../assets/images/mascota.png" height="55px" /> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
-                            href="../pages/conocenos.html"> Conócenos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active me-2 h5 text-white text-decoration-none"
-                            href="../pages/buscador.html">Buscador Vet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
-                            href="../pages/instapets.html">Instapets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
-                            href="../pages/blog.html">Blog/Foro</a>
-                    </li>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"> <img src="../assets/images/mascota.png" height="55px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
+                                href="../pages/conocenos.html"> Conócenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 h5 text-white text-decoration-none"
+                                href="../pages/buscador.html">Buscador Vet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
+                                href="../pages/instapets.html">Instapets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active me-2 h5 text-white text-decoration-none" aria-current="page"
+                                href="../pages/blog.html">Blog/Foro</a>
+                        </li>
 
-                </ul>
+                    </ul>
 
-                <div class="col-xs-9 col-lg-1">
-                    <form action="./login.html">
-                        <button class="me-2 h6 text-white text-decoration-none" id="buttonlogin"
-                            href="./login.html"> Log in
-                        </button>
+                    <div class="col-xs-9 col-lg-1">
+                        <form action="./login.html">
+                            <button class="me-2 h6 text-white text-decoration-none" id="buttonlogin"
+                                href="./login.html"> Log in
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-xs-9 col-lg-1">
+                        <form action="./registro1.html">
+                            <button class="me-2 h6 text-white text-decoration-none" id="buttonregister"
+                                href="./registro1.html"> Regístrate
+                            </button>
+                        </form>
+                    </div>
+
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 h5 text-white text-decoration-none" type="search"
+                            placeholder="Busca contenido aquí" aria-label="Search">
+                        <button class="btn btn-outline-success h5 text-white text-decoration-none" id="buttonsearch"
+                            type="submit">Buscar</button>
                     </form>
                 </div>
-                <div class="col-xs-9 col-lg-1">
-                    <form action="./registro1.html">
-                        <button class="me-2 h6 text-white text-decoration-none" id="buttonregister"
-                            href="./registro1.html"> Regístrate
-                        </button>
-                    </form>
-                </div>
-
-
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 h5 text-white text-decoration-none" type="search"
-                        placeholder="Busca contenido aquí" aria-label="Search">
-                    <button class="btn btn-outline-success h5 text-white text-decoration-none" id="buttonsearch"
-                        type="submit">Buscar</button>
-                </form>
             </div>
+        </nav>
+    </header>
+
+    <body>
+
+
+
+        <div class="tituloSecundario">
+            <h2>Cuenta</h2>
         </div>
-    </nav>
-</header>
+
+        <section class="cuentas"> <!-- Inicio sesión -->
+            <div class="grid">
+                <form class="formulario formularioIzquierda" action="">
+                    <fieldset>
+                        <legend>Acceder</legend>
+                        <div class="contenedorCampos">
+                            <div class="campo">
+                                <label for="usuario">Nombre de usuario o corre electrónico <span>*</span></label>
+                                <input type="text" placeholder="Tu nombre" id="usuario" required>
+                            </div>
+
+                            <div class="campo">
+                                <label for="contrasena">Contraseña <span>*</span></label>
+                                <input type="password" placeholder="Contraseña" id="contrasena" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="botonFormulario">
+                        <input class="boton botonInput" type="submit" value="Acceder">
+                    </div>
+                </form>
+
+                            </div>
+
+        </section>
+
+    </body>
