@@ -9,15 +9,18 @@ header .navbar {
     color: #fff;
     text-decoration: none; }
   header .navbar form input {
-    background-color: #48cae4;
+    background-color: #ffffff;
     border: none;
     font-size: large;
     font-weight: bold; }
   header .navbar form button {
-    background-color: #48cae4;
+    background-color: #22577A;
     border: none;
-    font-size: large;
-    font-weight: bold; }
+    border-radius: 15%;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.2rem;
+    transition: 0.3s ease; }
   header .navbar #buttonlogin {
     background-color: #22577A;
     border: none;
@@ -72,7 +75,8 @@ main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#
   main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA {
     align-items: center;
     background-color: bg-body-secondary;
-    column-span: justify-content-center; }
+    column-span: justify-content-center;
+    animation: myAnim 5s linear 3s 1 normal forwards; }
     main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA h3:before {
       content: ""; }
     main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosA p:before {
@@ -80,12 +84,14 @@ main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#
   main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB {
     align-items: center;
     background-color: bg-secondary-subtle;
-    column-span: justify-content-center; }
+    column-span: justify-content-center;
+    animation: myAnim 5s linear 3s 1 normal forwards; }
     main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB h3:before {
       content: ""; }
     main .w3-container.w3-container.w3-center.w3-animate-opacity #main .row section#registro1#ParrafosB p:before {
       content: ""; }
 
+      
 #footer {
   background-color: #48cae4;
   font-family: montserrat;

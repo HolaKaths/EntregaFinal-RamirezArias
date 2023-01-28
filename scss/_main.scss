@@ -47,6 +47,7 @@ h1 {
                                     align-items: center;
                                     background-color: bg-body-secondary;
                                     column-span: justify-content-center;
+                                    animation: myAnim 5s linear 3s 1 normal forwards;
 
                                     h3 {
                                         &:before {
@@ -66,6 +67,7 @@ h1 {
                                     align-items: center;
                                     background-color: bg-secondary-subtle;
                                     column-span: justify-content-center;
+                                    animation: myAnim 5s linear 3s 1 normal forwards;
 
                                     h3 {
                                         &:before {

@@ -24,17 +24,20 @@ header {
 
         form {
             input {
-                background-color: #48cae4;
+                background-color: #ffffff;
                 border: none;
                 font-size: large;
                 font-weight: bold;
             }
 
             button {
-                background-color: #48cae4;
+                background-color: #22577A;
                 border: none;
-                font-size: large;
+                border-radius: 15%;
+                cursor: pointer;
                 font-weight: bold;
+                padding: 0.2rem;
+                transition: 0.3s ease;
             }
         }
 
