@@ -22,4 +22,15 @@
     cursor: pointer;
         padding: 0.2rem;
     transition: 0.3s ease;
+    background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right / 200%;
 }
+
+.btn {
+    border: none;
+    cursor: pointer;
+    background-color: #22577A;
+    border-radius: 20%;
+    padding: 0.2rem;
+    transition: 0.3s ease;
+    background: linear-gradient(to top, #22577A, #38A3A5) no-repeat right / 200%;
+    }
